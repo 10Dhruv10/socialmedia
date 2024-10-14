@@ -7,6 +7,7 @@
             </div>
             <span>@{{room.host.username}}</span>
         </a>
+        {% comment %} shows how much time ago {% endcomment %}
         <div class="roomListRoom__actions">
             <span>{{room.created|timesince}} ago</span>
         </div>

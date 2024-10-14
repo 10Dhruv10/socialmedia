@@ -15,12 +15,12 @@
               </path>
             </svg>
           </a>
-          <h3>Recent Activities</h3>
+          <h3>Recent Activities</h3> 
         </div>
       </div>
 
       <div class="activities-page layout__body">
-
+{% comment %} for telling how much time ago {% endcomment %}
         {% for message in room_messages %}
         <div class="activities__box">
           <div class="activities__boxHeader roomListRoom__header">

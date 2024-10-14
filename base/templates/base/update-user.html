@@ -1,5 +1,5 @@
 {% extends 'main.html' %}
-
+{% comment %}  the user can edit thier profile {% endcomment %}
 {% block content %}
 <main class="update-account layout">
   <div class="container">
@@ -27,7 +27,7 @@
             {{field}}
           </div>
           {% endfor %}
-
+{% comment %} confirming updation {% endcomment %}
 
           <div class="form__action">
             <a class="btn btn--dark" href="index.html">Cancel</a>

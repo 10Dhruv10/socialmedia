@@ -2,6 +2,7 @@
 
 {% block content %}
 
+{% comment %} deletes old post {% endcomment %}
 <form method="POST" action="">
     {% csrf_token %}
     <p>Are you sure you want to delete "{{obj}}"?</p>
