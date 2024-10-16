@@ -1,2 +1,2 @@
 
-Social App Mainly designed for posting stuff and making the post more of a discussion post.
+Social App Mainly designed for posting anything that you are interested in and people from diverse regions of the world can engage with it.
